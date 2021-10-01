@@ -139,7 +139,7 @@ grid.addEventListener('click', event => {
  
 });
 if(count == (card.length/2)){
-     consoleText([Congratulations!', 'You Won!'], 'text',['tomato','rebeccapurple','lightblue']);
+     consoleText([Congratulations!', 'You Won!'], 'text',['tomato','rebeccapurple']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
