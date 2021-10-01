@@ -138,6 +138,10 @@ grid.addEventListener('click', event => {
   }
  
 });
+if(count == (card.length/2)){
+    document.getElementById("").innerHTML = "CONGRATULATIONS! You Won!!";
+
+}
 
 
 var sec = 0;
